@@ -1,0 +1,20 @@
+{
+    "name": "nghh/wp-theme",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Nghh\\Wp\\Theme\\": "./inc/"
+        },
+        "files": [ "./inc/helper.php" ]
+    },
+    "authors": [
+        {
+            "name": "Jan Reiland",
+            "email": "jr@janreiland.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+    }
+}
+
