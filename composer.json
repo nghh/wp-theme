@@ -2,6 +2,11 @@
     "name": "nghh/wp-theme",
     "version": "1.0.0",
     "type": "wordpress-theme",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
     "autoload": {
         "psr-4": {
             "Nghh\\Wp\\Theme\\": "./inc/"
