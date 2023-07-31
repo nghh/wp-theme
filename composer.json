@@ -1,6 +1,7 @@
 {
     "name": "nghh/wp-theme",
     "version": "1.0.0",
+    "type": "wordpress-theme",
     "autoload": {
         "psr-4": {
             "Nghh\\Wp\\Theme\\": "./inc/"
